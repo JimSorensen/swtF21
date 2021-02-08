@@ -11,7 +11,7 @@ namespace CashRegister_swt
 			reg.AddItem(22.55);
 
 			System.Console.WriteLine("Register indeholder nu {0} vare til {1} kr. ",
-				reg.GetNoOfItems(), reg.GetTotal());
+				reg.GetNoOfItems(), reg.GetTotal()); // Test Git
 		}
 	}
 }
